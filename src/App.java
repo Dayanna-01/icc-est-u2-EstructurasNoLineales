@@ -14,16 +14,12 @@ public class App {
 
         System.out.print("Preorden: ");
         ab.imprimirArbolPre();
-
-        System.out.println();
-
         System.out.print("Odenado: ");
         ab.imprimirArbol();
-
-        System.out.println();
-        
-        System.out.println("¿Existe 23?: " + ab.buscar(23));
-        System.out.println("¿Existe 100?: " + ab.buscar(100));
+        System.out.println("____________________________________________");
+        System.out.println("Encontrar Numeros:");
+        System.out.println("Existe el numero 23: " + ab.buscar(23));
+        System.out.println("Existe el numero 77: " + ab.buscar(77));
     }
 }
 
