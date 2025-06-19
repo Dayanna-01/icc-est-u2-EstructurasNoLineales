@@ -19,7 +19,7 @@ public class App {
         System.out.println(
 
         );
-        System.out.print("Arbol InOrden: ");
+        System.out.print("Arbol InOrden: \n ");
         ab.inOrden();
 
         System.out.print("\nArbol InOrder con alturas: \n");
@@ -37,6 +37,11 @@ public class App {
         ab.inOrdenConBalance();
         System.out.println();
         ab.mostrarNodosDesequilibrados();
+
+        /*System.out.println("____________________________________________");
+        System.out.println("Encontrar Números:");
+        System.out.println("¿Existe el número 23?: " + ab.buscar(23));
+        System.out.println("¿Existe el número 77?: " + ab.buscar(77));*/
 
     }
 }
