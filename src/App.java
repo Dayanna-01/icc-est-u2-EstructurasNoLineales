@@ -12,14 +12,31 @@ public class App {
         ab.insert(14);
         ab.insert(19);
 
-        System.out.print("Preorden: ");
-        ab.imprimirArbolPre();
-        System.out.print("Odenado: ");
-        ab.imprimirArbol();
-        System.out.println("____________________________________________");
-        System.out.println("Encontrar Numeros:");
-        System.out.println("Existe el numero 23: " + ab.buscar(23));
-        System.out.println("Existe el numero 77: " + ab.buscar(77));
+        System.out.println("Nombre: Dayanna Chacha");
+        System.out.println();
+        System.out.println("Peso del árbol = " + ab.getPeso());
+        System.out.println("Altura es = " + ab.getHeight());
+        System.out.println(
+
+        );
+        System.out.print("Arbol InOrden: ");
+        ab.inOrden();
+
+        System.out.print("\nArbol InOrder con alturas: \n");
+        ab.inOrdenConAlturas();
+
+        System.out.print("\nArbol InOrder con factor de equilibrio: \n");
+        ab.inOrdenConBalance();
+
+        System.out.println("\nArbol esta equilibrado : " + ab.estaEquilibrado());
+
+        System.out.println("\nAgregamos valor : 15");
+        ab.insert(15);
+
+        System.out.println("\nArbol inOrden con factor de equilibrio:");
+        ab.inOrdenConBalance();
+        System.out.println();
+        ab.mostrarNodosDesequilibrados();
+
     }
 }
-
